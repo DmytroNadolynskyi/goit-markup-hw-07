@@ -1,13 +1,13 @@
-.section-feature__title {
+.section__title {
     margin-top: 0;
     margin-bottom: 0;
 }
 
-.feature-list {
+.feature__list {
     display: flex;
 }
 
-.feature-list__item {
+.feature__item {
     margin-left: 30px;
 
 
@@ -15,7 +15,7 @@
     margin: 0;
 }
 }
-.feature-list__cover {
+.feature__cover {
 
     background-color: #F5F4FA;
     width: 270px;
@@ -27,13 +27,13 @@
     align-items: center;
 }
 
-.feature-list__icon {
+.feature__icon {
     display: flex;
     width: 70px;
     height: 70px;
 }
 
-.feature-list__title {
+.feature__subtitle {
     color: var(--secondly-text-color);
     font-weight: 700;
     font-size: 14px;
@@ -47,7 +47,7 @@
 
 }
 
-.feature-list__text {
+.feature__subtext {
     margin: 0;
     line-height: 1.71;
 }

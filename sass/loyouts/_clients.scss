@@ -1,9 +1,9 @@
-.client-list {
+.client__list {
     display: flex;
 
 }
 
-.client-list__item {
+.client__item {
     width: 170px;
     height: 92px;
     margin-left: 30px;
@@ -14,7 +14,7 @@
     margin-left: 0px;
 }
 }
-.client-list__link {
+.client__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,7 +38,7 @@
     cursor: pointer;
 }
 }
-.client-list__logo {
+.client__logo {
     width: 106px;
     height: 60px;
     fill: currentColor;
