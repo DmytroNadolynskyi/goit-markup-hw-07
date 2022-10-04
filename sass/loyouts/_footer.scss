@@ -1,0 +1,40 @@
+.page-footer {
+    background-color: var(--secondly-bg-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    align-items: baseline;
+    display: flex;
+
+
+
+
+}
+
+.conteiner-footer {
+    display: flex;
+    align-items: baseline;
+
+}
+
+
+.footer-logo {
+    margin-right: 70px;
+}
+
+.footer-logo__link {
+    font-family: raleway, sans-serif;
+    font-family: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+    margin-bottom: 20px;
+
+
+
+}
+
+.logo__half-two {
+    color: var(--white-color);
+    font-family: raleway, sans-serif;
+
+}
