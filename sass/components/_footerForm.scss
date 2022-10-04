@@ -34,12 +34,12 @@
     transition-property: border-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    color: #EEEEEE
-}
+    color: #EEEEEE;
 
 
 
-.footer-form__input::placeholder {
+
+&::placeholder {
 
     font-family: 'Roboto';
 
@@ -54,7 +54,7 @@
 
     color: rgba(255, 255, 255, 0.6);
 }
-
+}
 .foot-button-image {
     position: relative;
 }

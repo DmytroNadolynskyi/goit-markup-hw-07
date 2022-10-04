@@ -11,12 +11,12 @@
 .occupation-list__item {
     position: relative;
     margin-left: 30px;
-}
 
-.occupation-list__item:first-child {
+
+&:first-child {
     margin-left: 0;
 }
-
+}
 .occupation-list__position {
     width: 100%;
     position: absolute;

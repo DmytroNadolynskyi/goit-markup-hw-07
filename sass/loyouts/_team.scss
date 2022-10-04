@@ -12,12 +12,12 @@
         0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
 
-}
 
-.team-list__item:first-child {
+
+&:first-child {
     margin-left: 0;
 }
-
+}
 .team-data {
     padding-top: 30px;
     padding-bottom: 30px;

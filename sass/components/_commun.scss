@@ -17,25 +17,9 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.communication__item {
-    display: flex;
-    margin-left: 50px;
-    align-items: center;
-    justify-content: center;
-
-
-}
-
-.communication__item:first-child {
-    margin-left: 0;
-}
-
-
-
-.communication__contact:hover,
-.communication__contact:focus {
+&:hover,
+&:focus {
     color: var(--hover-color);
     font-weight: 500;
 
@@ -44,22 +28,41 @@
     cursor: pointer;
 
 }
+}
+.communication__item {
+    display: flex;
+    margin-left: 50px;
+    align-items: center;
+    justify-content: center;
+
+
+
+
+&:first-child {
+    margin-left: 0;
+}
+}
+
+
+.communication__icon {
+    margin-right: 10px;
+    fill: currentColor;
+
+    &:hover,
+        &:focus {
+            fill: #2196F3
+        }
+    }
 
 .communication__icon--envelope {
     width: 16px;
     height: 12px;
-    margin-right: 10px;
-    fill: currentColor
+    
 }
 
 .communication__icon--smart {
     width: 10px;
     height: 16px;
-    margin-right: 10px;
-    fill: currentColor
+    
 }
 
-.communication__icon:hover,
-.communication__icon:focus {
-    fill: #2196F3
-}

@@ -34,12 +34,12 @@
 
 
 
-}
 
-.close:hover .close__image {
+
+&:hover .close__image {
     fill: #2196F3
 }
-
+}
 .close__image {
     vertical-align: middle;
     transition-property: fill;

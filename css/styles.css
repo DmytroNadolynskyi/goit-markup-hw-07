@@ -262,7 +262,9 @@ ul {
     cursor: pointer;
 
 }
-
+communication__icon{
+    margin-right: 10px;
+        fill: currentColor
 .communication__icon--envelope {
     width: 16px;
     height: 12px;

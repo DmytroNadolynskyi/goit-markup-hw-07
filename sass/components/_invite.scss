@@ -13,12 +13,12 @@
 .invite-list__item {
     margin-left: 10px;
 
-}
 
-.invite-list__item:first-child {
+
+&:first-child {
     margin-left: 0;
 }
-
+}
 .invite-list__link {
     display: flex;
     width: 44px;
@@ -32,14 +32,14 @@
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.invite-list__link:hover,
-.invite-list__link:focus {
+
+&:hover,
+&:focus {
     background-color: #2196F3;
 }
 
-
+}
 
 
 
