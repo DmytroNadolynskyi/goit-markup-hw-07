@@ -777,7 +777,7 @@ input:focus {
   line-height: 1.71;
 }
 
-.section-second {
+.section-occupation {
   padding-top: 0;
   padding-bottom: 94px;
 }
@@ -812,7 +812,7 @@ input:focus {
   color: #FFFFFF;
 }
 
-.section-third {
+.section-team {
   background-color: var(--third-section-color);
 }
 
